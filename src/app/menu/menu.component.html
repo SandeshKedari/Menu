@@ -1,0 +1,48 @@
+<div class="container my-4">
+    <!-- Title -->
+    <h2 class="fw-bold">GIA DUBAI</h2>
+    <a href="#" class="text-muted small">More Info</a>
+  
+    <!-- Categories -->
+    <div class="d-flex flex-wrap gap-2 my-4">
+      <button
+        *ngFor="let cat of categories"
+        (click)="setCategory(cat)"
+        class="btn"
+        [ngClass]="{'btn-dark': activeCategory === cat, 'btn-outline-dark': activeCategory !== cat}">
+        {{ cat }}
+      </button>
+      <div class="ms-auto d-flex align-items-center">
+        <input type="text" class="form-control" placeholder="Search" style="max-width:200px;">
+        <button class="btn btn-light ms-2">
+          <i class="bi bi-sliders"></i>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Section -->
+    <h4 class="fw-bold">{{ activeCategory }}</h4>
+    <p class="text-muted">Summer at GIA – a light, elegant journey through the flavours of the Italian coast.</p>
+  
+    <!-- Cards -->
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let item of menuItems">
+        <div class="card h-100 shadow-sm">
+          <div class="row g-0 h-100">
+            <div class="col-8 p-3">
+              <h6 class="fw-bold">{{ item.name }}</h6>
+              <p class="text-muted small">{{ item.description }}</p>
+              <p class="fw-bold">{{ item.price }}</p>
+              <div class="icons">
+                <span *ngFor="let icon of item.icons" class="me-2">{{ icon }}</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <img [src]="item.image" class="img-fluid rounded-end h-100 object-fit-cover" alt="{{ item.name }}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

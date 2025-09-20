@@ -1,0 +1,19 @@
+h2 {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .card {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .icons span {
+    font-size: 1.2rem;
+  }
+  
