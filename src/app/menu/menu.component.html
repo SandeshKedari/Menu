@@ -1,3 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3">
+    <div class="container-fluid">
+  
+      <!-- Brand / Logo -->
+      <a class="navbar-brand fw-bold" href="#">GIA</a>
+  
+      <div class="d-flex align-items-center ms-auto">
+  
+        <!-- Language Dropdown -->
+        <!-- <div class="dropdown me-3">
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="langMenu"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            {{ selectedLang }}
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langMenu">
+            <li *ngFor="let lang of languages">
+              <a class="dropdown-item" href="#" (click)="changeLang(lang)">{{ lang }}</a>
+            </li>
+          </ul>
+        </div> -->
+        <select class="btn btn-outline-secondary dropdown-toggle me-3">
+            <option *ngFor="let lang of languages">{{lang}}</option>
+        </select>
+  
+        <!-- Login Button -->
+        <button class="btn btn-outline-dark me-3" (click)="login()">
+          <i class="bi bi-box-arrow-in-right me-1"></i> Login
+        </button>
+  
+        <!-- Sidebar Toggle -->
+        <button class="btn btn-dark" (click)="toggleSidebar()">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  
+
+
 <div class="container my-4">
     <!-- Title -->
     <h2 class="fw-bold">GIA DUBAI</h2>

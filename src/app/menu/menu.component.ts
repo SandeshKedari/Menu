@@ -49,4 +49,19 @@ export class MenuComponent {
   setCategory(cat: string) {
     this.activeCategory = cat;
   }
+
+  languages = ['English', 'Arabic', 'Italian'];
+  selectedLang = 'English';
+
+  toggleSidebar() {
+    alert('Sidebar toggled! (You can connect this to your sidebar logic)');
+  }
+
+  login() {
+    alert('Redirecting to login page...');
+  }
+
+  // changeLang(lang: string) {
+  //   this.selectedLang = lang;
+  // }
 }
