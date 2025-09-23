@@ -17,7 +17,9 @@ export class MenuComponent {
   categories: string[] = [
     'SAPORE DI MARE', 'BREAKFAST', 'SALAD', 'SOUP',
     'SHARING', 'PASTA', 'RISOTTO', 'PIZZA',
-    'MAIN', 'KIDS MENU', 'DESSERT'
+    'MAIN', 'KIDS MENU', 'DESSERT MENU', 'SIGNATURE',
+    'LE SCINTILLANTI (SPARKLINGS)', 'L APERITIVO',
+    'L DOLCI(DESSERT DRINKS)', 'HOT BEVERAGE', 'COLD BEVERAGE'
   ];
 
   activeCategory: string = 'SAPORE DI MARE';
@@ -43,7 +45,327 @@ export class MenuComponent {
       price: 'AED99.00',
       image: 'assets/images/Sample.jpeg',
       icons: ['🦪','🍋','🌿']
-    }
+    },
+
+
+
+
+    
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
+    {
+      name: 'TONNO CRUDO',
+      description: 'Chutoro bluefin tuna, fragrant basil pesto, citrus crema, crispy rice, toasted sesame',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🐟','🌿','🍋']
+    },
+    {
+      name: 'HAMACHI CARPACCIO',
+      description: 'Delicate yellowtail carpaccio, chilled cucumber emulsion, caviar, chives, basil',
+      price: 'AED89.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🥒','🐟']
+    },
+    {
+      name: 'TRIS DI OSTRICHE',
+      description: 'A trio of oysters, finished with green gazpacho, citrus crema, and Amalfi lemon',
+      price: 'AED99.00',
+      image: 'assets/images/Sample.jpeg',
+      icons: ['🦪','🍋','🌿']
+    },
   ];
 
   setCategory(cat: string) {
